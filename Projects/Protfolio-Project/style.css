@@ -72,7 +72,7 @@ nav ul li a:hover::after {
 }
 /* ------------------------ kdpn ------- */
 nav h1 {
-  color: rgb(216, 152, 34);
+  color: rgb(199, 116, 14);
   padding: 20px;
   margin-left: 40px;
 }
@@ -93,9 +93,9 @@ nav h1 {
   color: white;
 }
 
-strong {
+/* strong {
   color: brown;
-}
+} */
 
 /* ------------------------- about me  ----------------------------- */
 
@@ -189,8 +189,8 @@ strong {
   display: block;
 }
 
-/*------------------------------------- developer technology---------------------------------- */
-#section-1 {
+/*------------------------------------- developer technology or my services---------------------------------- */
+#services {
   padding: 80px;
 }
 .services_section {
@@ -224,7 +224,7 @@ strong {
   transition: 0.3s;
 }
 .ph {
-  /* color: white; */
+  /* color: red; */
   font-size: 30px;
   /* margin-bottom: 20px; */
 }
