@@ -9,6 +9,10 @@
     <title>Durga's Portfolio</title>
   </head>
   <body>
+    <div id="preloader">
+      <div class="spinner"></div>
+    </div>
+
     <div id="header">
       <div>
         <div class="container">
@@ -374,12 +378,12 @@
           </div>
         </div>
       </div>
-      <div class="copyright">
-        <p>
-          Copyright &copy; Durga. Made with <i class="ph ph-heart"></i> By Easy
-          Platform to Building Portfolio Application
-        </p>
-      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright &copy; Durga. Made with <i class="ph ph-heart"></i> By Easy
+        Platform to Building Portfolio Application
+      </p>
     </div>
     <!-- script -->
     <script>
@@ -415,6 +419,17 @@
             form.reset();
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("load", function () {
+          var preloader = document.getElementById("preloader");
+          // var content = document.getElementById("content");
+          preloader.style.display = "none";
+          // content.style.display = "block";
+        });
       });
     </script>
   </body>
